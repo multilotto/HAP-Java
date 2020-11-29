@@ -2,6 +2,7 @@ package io.github.hapjava.services.impl;
 
 import io.github.hapjava.characteristics.Characteristic;
 import io.github.hapjava.services.Service;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -26,6 +27,11 @@ abstract class AbstractServiceImpl implements Service {
   @Override
   public String getType() {
     return type;
+  }
+
+  @Override
+  public List<Service> getLinkedServices() {
+    return new ArrayList<>();
   }
 
   public void addCharacteristic(Characteristic characteristic) {
