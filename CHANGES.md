@@ -9,6 +9,11 @@
 * the process is following: client, e.g. openHAB bindings, extends accessory classes, e.g. `WindowCoveringAccessory` and implements all required methods. WindowCoveringAccessory is linked already to WindowCoveringService, that in turn is link to single characteristics. 
 * linked service support
 
+## New and improved
+
+* Valid values are supported for enum characteristics instead of min and max values
+* Supported valid states for Thermostat, SecuritySystem and HeaterCooler [#108]
+
 # HAP-Java 1.1.5
 
 ## Fixes
