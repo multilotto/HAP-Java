@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.hap-java</groupId>
 	<artifactId>hap</artifactId>
-	<name>hap-java</name>
+	<name>hap-java-FULL</name>
 	<description>Homekit Accessory Protocol for Java</description>
 	<version>2.0.0-snapshot</version>
 	<packaging>jar</packaging>

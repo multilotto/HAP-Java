@@ -4,7 +4,6 @@ import io.github.hapjava.characteristics.HomekitCharacteristicChangeCallback;
 import io.github.hapjava.services.Service;
 import io.github.hapjava.services.impl.CameraControlService;
 import io.github.hapjava.services.impl.CameraRTPService;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
